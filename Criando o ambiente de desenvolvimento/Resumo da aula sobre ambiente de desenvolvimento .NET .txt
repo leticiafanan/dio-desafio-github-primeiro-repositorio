@@ -1,0 +1,33 @@
+.NET Framework: - criado em 2002
+                - roda apenas em Windows.
+
+.NET Core:  - criado em 2016
+            - roda em Window, Linox e macOS.
+
+.NET Standard:  - biblioteca de classe base
+                - não é uma ferramenta a mais
+                -faz com que um código do Framework rode no Code e vice versa.
+
+.NET 5:  - Criado em 2020
+         - plataforma unificada
+         - multiplataforma
+
+- Framework: "é uma caixa de ferramentas prontas para serem utilizadas"
+
+- Runtime: pega o bloco de código escrito e compila para a linguagem binária.
+
+.CLI DO .NET:  - CLI: Command - Line Interface : processa os comandos que serão enviados para um programa de computador
+                                                 na forma de linhas de texto.
+
+   .no terminal ou pumpet de comando:
+
+          - dotnet -- version: verifica a versão instalada do .NET
+          - dotnet -- help: lista todos os comandos que podem ser utilizados
+          - dotnet -- info: mostra qual versão você tem, qual sistema operacional, de forma mais detalhada
+          - dotnet new: cria um projeto
+          - dotnet -- list -- tag web: lista e filtra apenas web
+          - dotnet new console -o myApp: cria um projeto console, com o nome "myApp"
+          - cd myApp: acessa a pasta do projeto criado
+          - dotnet run: inicia o projeto, inicialmente mostrando "Hello World!"
+          - dotnet build: compila o projeto (confere se possui erros)
+          - dotnet restore: resgata as dependências para o projeto funcionar                              
