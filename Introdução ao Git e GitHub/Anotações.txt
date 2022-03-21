@@ -1,3 +1,41 @@
 Link para dowload do Git: https://git-scm.com/downloads
 
-O Git Bash é um terminal extendido para otimizar o uso do Git
+.Git é um sistema de versionamento de código distriuído, criado em 2005 por Linus Torvalds
+
+.Git e GitHub são tecnologias diferentes.
+
+.No GitHub é possível:
+  - Controle de versionamento;
+  - Armazenamento em nuvem;
+  - Trabalho em equipe;
+  - Melhoria no código;
+  - Maior reconhecimento.
+
+.O Git funciona por interação na linha de comando no console.
+
+.Comandos básicos no terminal:
+  - Listar: dir
+  - Navegar pelas pastas: cd/
+  - Voltar pastas: cd ..
+  - Limpar terminal: cls
+  - Criar pastas: mkdir
+  - Criar arquivos: echo (nome do arquivo)
+  - Deletar pastas: del (nome da pasta) - detela apenas arquivos
+  - Remover o repositório: rdmir (nome da pasta)/s/Q
+
+.Como o Git funciona:
+  - SHA1: A sigla SHA significa Segure Hash Algorithm (Algoritmo de Hash Seguro), é um conjunto de funções hash criptográficas
+projetadas pela NSA (Agência de Segurança Nacional dos EUA).
+  - A encriptação gera um conjunto de caracteres identificador de 40 dígitos.
+
+  - Objetos internos do Git:   .BLOBS
+                               .TREES
+                               .COMMITS
+
+
+  - Comandos no Git:   .git init : adiciona o arquivo
+                       .git status: mostra o status do arquivo
+                       .git commit -m "comentario" : comita o arquivo
+                       
+                   
+                                
